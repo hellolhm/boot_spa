@@ -1,0 +1,473 @@
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: 100,200,300,400,500,600,700,800,900;
+    font-style: normal;
+}
+*{
+    font-family:'S-CoreDream-3Light';
+}
+.fow6{
+    font-weight: 600;
+}
+.font22{
+    font-size: 2rem;
+}
+.font12{
+    font-size: 12px;
+}
+.elifontb{
+    font-family: 'S-CoreDream-3Light';
+    font-weight: 900;
+}
+.elifontl{
+    font-family: 'S-CoreDream-3Light';
+    font-weight: 400;
+}
+.textcolor{ color: #EB2C53;}
+body { 
+    margin: 0;
+    background-color: #313131 !important;
+}
+a {
+    text-decoration: none !important;
+    color: white !important;
+}
+.navbar {
+    position: fixed !important;
+    top: 0 !important;
+    width: 100% !important;
+    background-color: #313131;
+    z-index: 10000000;
+
+}
+.navbar__logo{
+    color: #EB2C53 !important;
+    font-family: S-CoreDream-3Light;
+    font-weight: 400;
+    font-size: 36px;
+}
+.navbar__menu {
+    font-family: S-CoreDream-3Light;
+    font-size: 20px;
+    font-weight: 400;
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding-left: 0;
+} 
+/* .navbar__menu li {
+    padding: 8px 40px;
+} */
+.intro{
+   height: 100vh;
+  
+}
+.intro p{
+
+    font-family: S-CoreDream-3Light;
+    font-weight: 900;
+    text-align: center;
+    align-items: center;
+}
+
+.tline{   
+    height: 1px;    
+    overflow: hidden;
+   
+}
+.tline:after{
+    content: "";
+    display: block;
+    position: absolute;
+    left:0;
+    top:0;
+    height:5px;
+    background-color: #EB2C53;
+    width:0;
+    animation: barani 0.8s ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+}
+
+.nav-link.active{
+    color:#EB2C53 !important;
+}
+
+.boomo{
+    overflow: hidden;
+}
+
+.boomo .wktlr {
+    font-weight: bold;
+    line-height: 1;
+    animation-name: und;
+    animation-duration: 4.5s;
+    animation-delay: 0.3s;
+}
+.boomo .wktlr2 {
+    margin-top: 16px;
+    margin-bottom: 0 !important;
+    font-weight: bold;
+    line-height: 1;
+    animation-name: und2;
+    animation-duration: 4.5s;
+    animation-delay: 0.3s;
+}
+
+
+@keyframes und {
+    0% {
+        transform: translateY(-10rem)
+    }
+    100% {
+        transform: translateY(0)
+    }
+}
+@keyframes und2 {
+    0% {
+        transform: translateY(10rem)
+    }
+    100% {
+        transform: translateY(0)
+    }
+}
+
+
+@keyframes barani {
+    0%{
+        width:0;
+    }
+    100%{
+        width:100%;
+    }
+    
+}
+
+
+
+.bg-313131{
+    background-color: #313131;
+
+}
+/* swiper */
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    
+    color: white;
+    /* text-align: center; */
+    font-size: 18px;
+    background: #313131;
+    
+    justify-content: center;
+    align-items: center;
+
+  }
+  .swiper-scrollbar{
+    background-color: #fafafa4f !important;
+  }
+  .swiper-scrollbar-drag {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background: #EB2C53 !important;
+    border-radius: 0px !important;
+    left: 0;
+    top: 0;
+}
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit:contain;
+  }
+  .swiper-horizontal>.swiper-scrollbar, .swiper-scrollbar.swiper-scrollbar-horizontal {
+    opacity: 1 !important;
+    bottom: 5px !important;
+    height: 1px !important;
+}
+.bgsdw{
+    box-shadow: 20px 20px 0px #EB2C53;
+}
+.aboutt{
+    margin-top: 23rem;
+    font-size: 10rem;
+    font-family: 'S-CoreDream-3Light';
+    font-weight: 700;
+    color: #EB2C53;
+    text-align: center;
+    transform: translateY(-65%);
+}
+.bgsdw2{
+    box-shadow: 40px 40px 0px #EB2C53;
+}
+.hyo{
+    border-right: solid 1px #EB2C53;
+    padding-right: 15rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.skillt{
+    /* text-decoration: underline 1px #EB2C53;
+    text-underline-position : under; */
+    margin-top: 5rem;
+    font-size: 5rem;
+    font-family: 'S-CoreDream-3Light';
+    font-weight: 700;
+    color: #EB2C53;
+}
+.skillt:after {
+    content: "";
+    display: block;
+    width: 23rem;
+    border-bottom: 1px solid #EB2C53;
+    margin: 20px auto;
+}
+.rmfovm{
+    border: solid 2px #ffffff;
+    padding-right: 10rem;
+    font-size: 1px;
+}
+.rmfovm > spen{
+    border: solid 1px #ffffff;
+    padding-right: 10rem;
+    padding-left: 10rem;
+    background-color: #ffffff;
+}
+
+#about{
+    padding-bottom: 20rem;
+}
+.intro p{
+    font-size: 8rem;
+}
+.hist{
+    font-size: 5rem;
+    font-family: 'S-CoreDream-3Light';
+    font-weight: 900;
+    color: #EB2C53;
+    text-align: center;
+}
+.hist:after {
+    content: "";
+    display: block;
+    width: 23rem;
+    border-bottom: 1px solid #EB2C53;
+    margin: 20px auto;
+}
+.wlrdjq{
+    font-family: S-CoreDream-3Light;
+    font-weight: 700;
+}
+.cont{
+    font-size: 10rem;
+    font-family: 'S-CoreDream-3Light';
+    font-weight: 900;
+    color: #EB2C53;
+    text-align: center;
+    transform: translateY(-65%);
+    line-height: 0;
+    margin-bottom: 0px;
+}
+.form-control,.form-select{
+    border: none !important;
+    border-bottom: #EB2C53 1px solid !important;
+    border-radius: 0 !important;
+}
+.form-control:focus, .form-select:focus, .form-check-input:focus{
+    border-color: #ffffff00 !important;
+    box-shadow: none !important;
+    border-bottom: #EB2C53 1px solid !important;
+}
+.form-floating>.form-control-plaintext~label, .form-floating>.form-control:focus~label, .form-floating>.form-control:not(:placeholder-shown)~label, .form-floating>.form-select~label {
+    opacity: 100 !important;
+    transform: none !important
+}
+label{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.form-check-input[type=checkbox] {
+    border-radius: 0 !important;
+}
+.form-check-input{
+    border: 1px solid #EB2C53 !important;
+}
+.form-check-input:checked {
+    background-color: #EB2C53 !important;
+    border-color: #EB2C53 !important;
+}
+.form-select{
+    padding: 0 !important;
+    padding-top: 1rem !important;
+}
+.btn{
+    background-color: #EB2C53 !important;
+    border-radius: 0 !important;
+}
+input[type=text], textarea{
+    padding: 0 !important;
+    padding-top: 1rem !important;
+}
+
+
+
+
+
+
+@media (max-width:1024px) {
+    .intro p{
+        font-size: 6rem;
+    }  
+
+    .hyo {
+        border-right: solid 0px #EB2C53;
+        padding-right: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    
+    .aboutt{
+        font-size: 6rem;
+        margin-top: 5rem;
+    }
+    .skillt{
+        font-size: 5rem;
+    }
+    .cont{
+        font-size: 8rem;
+    }
+    
+
+}
+@media (max-width:768px) {
+    
+
+    .intro p{
+        font-size: 2.5rem;
+    }
+    
+    .aboutt{
+        font-size: 4rem;
+    }
+    .cont{
+        font-size: 5rem;
+    }
+    .skillt{
+        font-size: 2rem;
+    }
+    .hist{
+        font-size: 2rem;
+    }
+
+    .swiper-horizontal>.swiper-scrollbar, .swiper-scrollbar.swiper-scrollbar-horizontal {
+        bottom: 31rem !important;
+        height: 5px !important;
+    }
+
+    .bgsdw{
+        box-shadow: 0px 0px 0px #EB2C53;
+    }
+
+    .abouttext{
+        margin-top: 6rem;
+        font-size: 3rem;
+        font-family: 'S-CoreDream-3Light';
+        color: #EB2C53;
+        text-align: center;
+        
+    }
+
+    .bgsdw2{
+        box-shadow: 0px 0px 0px #EB2C53;
+    }
+
+    .hyo{
+        border-right: 0;
+        padding-right: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .font22{
+        font-size: 22px;
+    }
+
+    
+}
+
+
+/*2028작업 햄버거버튼*/
+
+.navbar-toggler-icon{
+    background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+.open .navbar-toggler-icon{
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-x-lg' viewBox='0 0 16 16'%3E%3Cpath d='M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z'/%3E%3C/svg%3E")
+}
+#mbtn.open + div{
+    display: block;
+    padding:15px 0;
+
+
+}
+.chengun div,.me div, .notionfigma div{
+    background-repeat:  no-repeat;
+    background-position: left top ;
+    height: 0;
+    padding-top: 49.8%;
+    background-size:100% auto;
+}
+
+
+.chengun div{
+    background-image: url(/hm/img/pofol01.jpg);
+   
+}
+.me div{
+    background-image: url(/hm/img/pofol02.jpg);
+   
+
+}
+.notionfigma div{
+    background-image: url(/hm/img/pofol01.jpg);
+  
+
+}
+
+
+@media (max-width:1080px) {
+    #portfolio .swiper-slide{
+        padding: 0 50px;
+
+    }
+    .chengun div{
+        background-image: url(/hm/img/pofol01.jpg);
+       
+    }
+    .me div{
+        background-image: url(/hm/img/pofol02.jpg);
+       
+    
+    }
+    .notionfigma div{
+        background-image: url(/hm/img/pofol01.jpg);
+      
+    
+    }
+    .chengun div, .me div, .notionfigma div{
+        padding-top: 100%;
+        background-size: auto 100%;
+    }
+   
+    
+}
