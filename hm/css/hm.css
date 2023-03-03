@@ -26,7 +26,7 @@
 }
 .textcolor{ color: #EB2C53;}
 body { 
-    margin: 0;
+    margin-bottom: 3rem;
     background-color: #313131 !important;
 }
 a {
@@ -256,7 +256,7 @@ a {
     color: #EB2C53;
 }
 .bg-black{
-    padding-bottom: 8rem;
+    padding-bottom: 20rem;
 }
 .hist:after {
     content: "";
@@ -361,6 +361,9 @@ input[type=text], textarea{
     .cont{
         font-size: 8rem;
     }
+    body { 
+        margin-bottom: 0;
+    }
     
 
 }
@@ -371,10 +374,17 @@ input[type=text], textarea{
         line-height: 1;
        
     }
+    body { 
+        margin-bottom: 0;
+    }
     
 }
 @media (max-width:768px) {
 
+
+    body { 
+        margin-bottom: 0;
+    }
 
 
     .skillt::after {
@@ -382,6 +392,11 @@ input[type=text], textarea{
         margin: 0 0 2rem;
 
     }
+
+    .bg-black{
+        padding-bottom: 8rem;
+    }
+    
     .hist::after {
         width:auto;
         margin: 0 0 2rem;
@@ -473,7 +488,7 @@ input[type=text], textarea{
 
 }
 .notionfigma div{
-    background-image: url(/hm/img/pofol01.jpg);
+    background-image: url(/hm/img/pofol03.jpg);
   
 
 }
@@ -503,7 +518,7 @@ input[type=text], textarea{
     
     }
     .notionfigma div{
-        background-image: url(/hm/img/mpofol01.jpg);
+        background-image: url(/hm/img/mpofol03.jpg);
       
     
     }
@@ -514,3 +529,33 @@ input[type=text], textarea{
    
     
 }
+
+
+.rmfovm span{
+    width:0;
+    transition: width 0.5s;
+    transition-delay: 3s;
+    transition-duration: 2s;
+}
+.aos-animate .csshtml{
+    width:90%
+}
+.aos-animate .jqjs{
+    width: 60%;
+}
+.aos-animate .node{
+    width: 30%;
+}
+.aos-animate .react{
+    width: 70%;
+}
+.aos-animate .photo{
+    width: 95%;
+}
+.aos-animate .figma{
+    width: 85%;
+}
+.aos-animate .boot{
+    width: 80%;
+}
+

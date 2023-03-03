@@ -1,3 +1,7 @@
+
+
+AOS.init();
+
 var scrollSpy = new bootstrap.ScrollSpy(document.body, {
   target: '#hd'
 })
@@ -6,10 +10,10 @@ var scrollSpy = new bootstrap.ScrollSpy(document.body, {
 var swiper = new Swiper(".mySwiper", {
     spaceBetween: 20,
     centeredSlides: true,
-    // autoplay: {
-    //   delay: 4000,
-    //   disableOnInteraction: false,
-    // },
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+    },
     loop : false,
     
     scrollbar: {
@@ -17,3 +21,4 @@ var swiper = new Swiper(".mySwiper", {
   hide: true,
 },
   });
+
